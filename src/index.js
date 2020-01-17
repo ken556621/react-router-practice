@@ -42,7 +42,7 @@ class RouterApp extends Component {
                         <Route exact path = "/">
                             <Headline headline = { this.headline }/>
                         </Route>
-                        <ChaptersRoutes chapters = { this.state.chapters } headline = { this.headline } />
+                        <ChaptersRoutes chapters = { this.state.chapters } />
                     </Switch>
                 </div>
             </Router>
